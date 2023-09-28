@@ -7,31 +7,31 @@ var chemistry  = +prompt("Enter your chemistry Marks")
 
 var total= eng + urdu + maths + pst + chemistry
 
-document.write(total,"<br>") 
+document.write(total+" "+ "Total", "<br>") 
 
  var percentage= (total / 500) * 100
- document.write(percentage+"%", "<br>")
+ document.write(percentage+"%"+" "+"Percentage", "<br>")
 
  if(percentage >=80 && percentage < 101){
-    document.write("A+")
+    document.write("A+"+" "+ "Grade")
  }
 
  else if(percentage >=70 && percentage < 80){
-    document.write("A")
+    document.write("A"+" "+ "Grade")
  }
  else if(percentage >=60 && percentage < 70){
-    document.write("B")
+    document.write("B"+" "+ "Grade")
  }
  else if(percentage >=50 && percentage < 60){
-    document.write("C")
+    document.write("C"+" "+ "Grade")
  }
  else if(percentage >=40 && percentage < 50){
-    document.write("D")
+    document.write("D"+" "+ "Grade")
  }
 
 
  else{
-    document.write("nkl krwayy")
+    document.write("Fail")
  }
 
 
